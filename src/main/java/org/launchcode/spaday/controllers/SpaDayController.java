@@ -26,3 +26,5 @@ public class SpaDayController {
         return "menu";
     }
 }
+
+

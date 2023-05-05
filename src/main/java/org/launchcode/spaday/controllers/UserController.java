@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class UserController {
 
         @PostMapping("/add")
-        public String displayUserAddForm (@RequestParam String username, String email, String password, String verify) {
-
-        return "redirect:add.html";
+        public String displayUserAddForm () {
+        return "/add";
     }
 }
